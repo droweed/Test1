@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98486291BE804385BFB79A8D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4512140F77384EF5B88D42E5 /* libPods.a */; };
 		FC6F604519CDA952002FB7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6F604419CDA952002FB7C5 /* UIKit.framework */; };
 		FC6F604719CDA952002FB7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6F604619CDA952002FB7C5 /* Foundation.framework */; };
 		FC6F604919CDA952002FB7C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6F604819CDA952002FB7C5 /* CoreGraphics.framework */; };
@@ -18,17 +19,22 @@
 		FC6F605B19CDA952002FB7C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6F605A19CDA952002FB7C5 /* Default-568h@2x.png */; };
 		FC6F605E19CDA952002FB7C5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6F605C19CDA952002FB7C5 /* MainStoryboard.storyboard */; };
 		FC6F606119CDA952002FB7C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F606019CDA952002FB7C5 /* ViewController.m */; };
+		FC6F606B19CDAADF002FB7C5 /* FactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F606A19CDAADF002FB7C5 /* FactsTableViewCell.m */; };
+		FC6F606F19CDB4C0002FB7C5 /* Facts.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F606E19CDB4C0002FB7C5 /* Facts.m */; };
+		FC6F607219CDB559002FB7C5 /* Rows.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F607119CDB559002FB7C5 /* Rows.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC6F604119CDA952002FB7C5 /* Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4512140F77384EF5B88D42E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C523B93506448DE945C7BF6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FC6F604119CDA952002FB7C5 /* Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6F604419CDA952002FB7C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC6F604619CDA952002FB7C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC6F604819CDA952002FB7C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FC6F604C19CDA952002FB7C5 /* Test2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test2-Info.plist"; sourceTree = "<group>"; };
+		FC6F604C19CDA952002FB7C5 /* Test1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test1-Info.plist"; sourceTree = "<group>"; };
 		FC6F604E19CDA952002FB7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC6F605019CDA952002FB7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC6F605219CDA952002FB7C5 /* Test2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test2-Prefix.pch"; sourceTree = "<group>"; };
+		FC6F605219CDA952002FB7C5 /* Test1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test1-Prefix.pch"; sourceTree = "<group>"; };
 		FC6F605319CDA952002FB7C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC6F605419CDA952002FB7C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FC6F605619CDA952002FB7C5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +43,12 @@
 		FC6F605D19CDA952002FB7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FC6F605F19CDA952002FB7C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC6F606019CDA952002FB7C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC6F606919CDAADF002FB7C5 /* FactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsTableViewCell.h; sourceTree = "<group>"; };
+		FC6F606A19CDAADF002FB7C5 /* FactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsTableViewCell.m; sourceTree = "<group>"; };
+		FC6F606D19CDB4C0002FB7C5 /* Facts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facts.h; sourceTree = "<group>"; };
+		FC6F606E19CDB4C0002FB7C5 /* Facts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facts.m; sourceTree = "<group>"; };
+		FC6F607019CDB559002FB7C5 /* Rows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rows.h; sourceTree = "<group>"; };
+		FC6F607119CDB559002FB7C5 /* Rows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rows.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 				FC6F604519CDA952002FB7C5 /* UIKit.framework in Frameworks */,
 				FC6F604719CDA952002FB7C5 /* Foundation.framework in Frameworks */,
 				FC6F604919CDA952002FB7C5 /* CoreGraphics.framework in Frameworks */,
+				98486291BE804385BFB79A8D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,16 +69,17 @@
 		FC6F603819CDA952002FB7C5 = {
 			isa = PBXGroup;
 			children = (
-				FC6F604A19CDA952002FB7C5 /* Test2 */,
+				FC6F604A19CDA952002FB7C5 /* Test1 */,
 				FC6F604319CDA952002FB7C5 /* Frameworks */,
 				FC6F604219CDA952002FB7C5 /* Products */,
+				9C523B93506448DE945C7BF6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		FC6F604219CDA952002FB7C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC6F604119CDA952002FB7C5 /* Test2.app */,
+				FC6F604119CDA952002FB7C5 /* Test1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,30 +90,33 @@
 				FC6F604419CDA952002FB7C5 /* UIKit.framework */,
 				FC6F604619CDA952002FB7C5 /* Foundation.framework */,
 				FC6F604819CDA952002FB7C5 /* CoreGraphics.framework */,
+				4512140F77384EF5B88D42E5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC6F604A19CDA952002FB7C5 /* Test2 */ = {
+		FC6F604A19CDA952002FB7C5 /* Test1 */ = {
 			isa = PBXGroup;
 			children = (
+				FC6F606C19CDB4B0002FB7C5 /* Model */,
+				FC6F606819CDAAD0002FB7C5 /* View */,
+				FC6F606719CDA95C002FB7C5 /* Controller */,
 				FC6F605319CDA952002FB7C5 /* AppDelegate.h */,
 				FC6F605419CDA952002FB7C5 /* AppDelegate.m */,
 				FC6F605C19CDA952002FB7C5 /* MainStoryboard.storyboard */,
-				FC6F605F19CDA952002FB7C5 /* ViewController.h */,
-				FC6F606019CDA952002FB7C5 /* ViewController.m */,
 				FC6F604B19CDA952002FB7C5 /* Supporting Files */,
 			);
+			name = Test1;
 			path = Test2;
 			sourceTree = "<group>";
 		};
 		FC6F604B19CDA952002FB7C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC6F604C19CDA952002FB7C5 /* Test2-Info.plist */,
+				FC6F604C19CDA952002FB7C5 /* Test1-Info.plist */,
 				FC6F604D19CDA952002FB7C5 /* InfoPlist.strings */,
 				FC6F605019CDA952002FB7C5 /* main.m */,
-				FC6F605219CDA952002FB7C5 /* Test2-Prefix.pch */,
+				FC6F605219CDA952002FB7C5 /* Test1-Prefix.pch */,
 				FC6F605619CDA952002FB7C5 /* Default.png */,
 				FC6F605819CDA952002FB7C5 /* Default@2x.png */,
 				FC6F605A19CDA952002FB7C5 /* Default-568h@2x.png */,
@@ -107,24 +124,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FC6F606719CDA95C002FB7C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F605F19CDA952002FB7C5 /* ViewController.h */,
+				FC6F606019CDA952002FB7C5 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FC6F606819CDAAD0002FB7C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F606919CDAADF002FB7C5 /* FactsTableViewCell.h */,
+				FC6F606A19CDAADF002FB7C5 /* FactsTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FC6F606C19CDB4B0002FB7C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F606D19CDB4C0002FB7C5 /* Facts.h */,
+				FC6F606E19CDB4C0002FB7C5 /* Facts.m */,
+				FC6F607019CDB559002FB7C5 /* Rows.h */,
+				FC6F607119CDB559002FB7C5 /* Rows.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC6F604019CDA952002FB7C5 /* Test2 */ = {
+		FC6F604019CDA952002FB7C5 /* Test1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC6F606419CDA952002FB7C5 /* Build configuration list for PBXNativeTarget "Test2" */;
+			buildConfigurationList = FC6F606419CDA952002FB7C5 /* Build configuration list for PBXNativeTarget "Test1" */;
 			buildPhases = (
+				C153BA860EF748868D5CBBC8 /* Check Pods Manifest.lock */,
 				FC6F603D19CDA952002FB7C5 /* Sources */,
 				FC6F603E19CDA952002FB7C5 /* Frameworks */,
 				FC6F603F19CDA952002FB7C5 /* Resources */,
+				ABD5B646760F4B739128348F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Test2;
+			name = Test1;
 			productName = Test2;
-			productReference = FC6F604119CDA952002FB7C5 /* Test2.app */;
+			productReference = FC6F604119CDA952002FB7C5 /* Test1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +184,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = NA;
 			};
-			buildConfigurationList = FC6F603C19CDA952002FB7C5 /* Build configuration list for PBXProject "Test2" */;
+			buildConfigurationList = FC6F603C19CDA952002FB7C5 /* Build configuration list for PBXProject "Test1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC6F604019CDA952002FB7C5 /* Test2 */,
+				FC6F604019CDA952002FB7C5 /* Test1 */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +216,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABD5B646760F4B739128348F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C153BA860EF748868D5CBBC8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC6F603D19CDA952002FB7C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -176,6 +257,9 @@
 				FC6F605119CDA952002FB7C5 /* main.m in Sources */,
 				FC6F605519CDA952002FB7C5 /* AppDelegate.m in Sources */,
 				FC6F606119CDA952002FB7C5 /* ViewController.m in Sources */,
+				FC6F606B19CDAADF002FB7C5 /* FactsTableViewCell.m in Sources */,
+				FC6F606F19CDB4C0002FB7C5 /* Facts.m in Sources */,
+				FC6F607219CDB559002FB7C5 /* Rows.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,22 +343,24 @@
 		};
 		FC6F606519CDA952002FB7C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C523B93506448DE945C7BF6 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Test2/Test2-Prefix.pch";
-				INFOPLIST_FILE = "Test2/Test2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Test2/Test1-Prefix.pch";
+				INFOPLIST_FILE = "Test2/Test1-Info.plist";
+				PRODUCT_NAME = Test1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		FC6F606619CDA952002FB7C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C523B93506448DE945C7BF6 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Test2/Test2-Prefix.pch";
-				INFOPLIST_FILE = "Test2/Test2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Test2/Test1-Prefix.pch";
+				INFOPLIST_FILE = "Test2/Test1-Info.plist";
+				PRODUCT_NAME = Test1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC6F603C19CDA952002FB7C5 /* Build configuration list for PBXProject "Test2" */ = {
+		FC6F603C19CDA952002FB7C5 /* Build configuration list for PBXProject "Test1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC6F606219CDA952002FB7C5 /* Debug */,
@@ -291,13 +377,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC6F606419CDA952002FB7C5 /* Build configuration list for PBXNativeTarget "Test2" */ = {
+		FC6F606419CDA952002FB7C5 /* Build configuration list for PBXNativeTarget "Test1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC6F606519CDA952002FB7C5 /* Debug */,
 				FC6F606619CDA952002FB7C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
